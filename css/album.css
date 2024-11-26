@@ -1,0 +1,37 @@
+:root {
+   
+    --fade-time: 0.5s;
+  }
+  body {
+    margin:0px 20px 20px 20px;
+    
+    background: rgb(51, 49, 70);
+    scroll-behavior: smooth;
+  }
+
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0 0 15px rgb(0,0,0, .2);
+	box-sizing: border-box;
+
+}
+.gallery {
+	column-count: 4;
+	max-width: 760px;
+	margin: 0 auto;
+	background: black;
+	padding: 30px;
+	box-shadow: 0 0 30px rgb(0,0,0, .25);
+}
+.gallery img {
+	transition: 1s;
+}
+.gallery img:hover{
+	
+	transform: scale(1.4);
+}
